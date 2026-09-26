@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>L'Enoteca di Arturo – vini, birre e aperitivo in via Monginevro, Torino</title>
+<meta name="description" content="Enoteca in via Monginevro 28b a Torino: vini anche alla spina, birre artigianali, grappe e distillati, aperitivo con taglieri e panini. E Arturo, il pastore tedesco di casa.">
+<meta name="theme-color" content="#22382e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2322382e'/%3E%3Cpath d='M13 4h6v6c3 1.5 4 4 4 7v11H9V17c0-3 1-5.5 4-7z' fill='%237a1f2e'/%3E%3Crect x='10.5' y='17' width='11' height='7' fill='%23ede3cc'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/young-serif-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/instrument-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BarOrPub","name":"L'Enoteca di Arturo","address":{"@type":"PostalAddress","streetAddress":"Via Monginevro 28b","postalCode":"10138","addressLocality":"Torino","addressCountry":"IT"},"telephone":"+393468626405","email":"lucacarante747@gmail.com","priceRange":"€","servesCuisine":"Aperitivo, taglieri, panini","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"10:30","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"16:00","closes":"22:00"}],"sameAs":["https://www.facebook.com/enotecadiarturo.it/"]}
+</script>
+<script src="orari.js" defer></script>
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <a class="marchio" href="#">L'Enoteca di Arturo</a>
+  <nav>
+    <a href="#aperitivo">Aperitivo</a>
+    <a href="#arturo">Arturo</a>
+    <a href="#orari-sez">Orari</a>
+    <a class="tel" href="tel:+393468626405">346 862 6405</a>
+  </nav>
+</header>
+
+<main>
+<section class="apertura">
+  <div class="etichetta-grande">
+    <p class="via">Via Monginevro 28b, Torino</p>
+    <h1>L'Enoteca<br>di Arturo</h1>
+    <p class="sotto">Vini, birre e distillati sugli scaffali fino al soffitto. Un bicchiere al tavolo con un tagliere, o una bottiglia da portare a casa.</p>
+    <p class="stato"><span data-stato></span></p>
+    <div class="azioni">
+      <a class="bott" href="tel:+393468626405">Chiama Luca</a>
+      <a class="bott vuoto" href="https://www.google.com/maps/dir/?api=1&destination=Via+Monginevro+28b+10138+Torino" target="_blank" rel="noopener">Come arrivare</a>
+    </div>
+  </div>
+
+  <div class="scaffale" aria-label="Lo scaffale: tocca una bottiglia">
+    <p class="istr">Tocca una bottiglia</p>
+    <div class="ripiano">
+      <button class="b vino" data-k="spina" aria-label="Vino alla spina"><span>Spina</span></button>
+      <button class="b vino alta" data-k="bottiglie" aria-label="Vini in bottiglia"><span>Rossi</span></button>
+      <button class="b bianco" data-k="bottiglie" aria-label="Vini bianchi"><span>Bianchi</span></button>
+      <button class="b liquore" data-k="distillati" aria-label="Liquori"><span>Liquori</span></button>
+      <button class="b vino" data-k="bottiglie" aria-label="Vini in bottiglia"><span>Barbera</span></button>
+      <button class="b grappa" data-k="grappe" aria-label="Grappe"><span>Grappa</span></button>
+      <button class="b vino alta nasc" data-k="bottiglie" aria-label="Vini in bottiglia"><span>Rossi</span></button>
+    </div>
+    <div class="ripiano">
+      <button class="b birra" data-k="birre" aria-label="Birre artigianali"><span>Birra</span></button>
+      <button class="b birra" data-k="birre" aria-label="Birre d'importazione"><span>Import</span></button>
+      <button class="b liquore" data-k="distillati" aria-label="Distillati"><span>Distillati</span></button>
+      <button class="b grappa alta" data-k="grappe" aria-label="Grappe"><span>Grappa</span></button>
+      <button class="b spritz" data-k="spritz" aria-label="Spritz"><span>Spritz</span></button>
+      <button class="b liquore" data-k="distillati" aria-label="Amari e liquori"><span>Amari</span></button>
+      <button class="b birra nasc" data-k="birre" aria-label="Birre artigianali"><span>Birra</span></button>
+    </div>
+    <div class="ripiano basso">
+      <svg class="arturo" viewBox="0 0 240 100" role="img" aria-label="Arturo, il pastore tedesco, sdraiato sul ripiano">
+        <path d="M30 96c-14-1-24-6-26-14 6 5 14 7 24 6z" fill="#3a2616"/>
+        <path d="M26 96c-4-16 4-30 22-36 20-7 52-8 78-6 16 1 28 5 36 11l4 31z" fill="#b07a45"/>
+        <path d="M44 62c18-7 50-10 78-8 12 1 22 4 30 8-6 8-20 12-40 12-26 0-48-2-68-12z" fill="#2a1d14"/>
+        <path d="M150 96l2-10h64c8 0 12 4 12 10z" fill="#b07a45"/>
+        <path d="M150 70c0-18 12-30 28-32l-2-26 14 20 6-22 8 26c10 6 14 16 12 26l14 6c5 2 5 8 0 10l-16 4c-10 3-22 4-32 2-18-3-32-2-32-14z" fill="#b07a45"/>
+        <path d="M205 60l14 6c5 2 5 8 0 10l-16 4c-4-6-4-14 2-20z" fill="#2a1d14"/>
+        <path d="M180 16l-4-4 2 26c4-1 8-1 11 0zM203 12l-5 24c3 2 6 4 8 6z" fill="#2a1d14"/>
+        <circle cx="196" cy="54" r="2.6" fill="#1b1714"/>
+        <path d="M168 74c6 6 16 8 26 6" stroke="#7a1f2e" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <circle cx="180" cy="80" r="4" fill="#c49a63"/>
+      </svg>
+      <button class="b vino" data-k="arturo" aria-label="Chi è Arturo"><span>Arturo</span></button>
+      <button class="b bianco nasc" data-k="bottiglie" aria-label="Vini bianchi"><span>Bianchi</span></button>
+    </div>
+
+    <div class="cartellino" id="cartellino" aria-live="polite">
+      <p class="c-tit">Il bicchiere della casa</p>
+      <p class="c-txt">Barbera superiore alla spina, a prezzi da enoteca di quartiere.</p>
+      <p class="c-cit">"Ottimi vini alla spina a prezzi ragionevoli (barbera superiore fantastico)" <span>Gabriele R.</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="aperitivo" id="aperitivo">
+  <div class="colonna">
+    <h2>Dalle 16, aperitivo al tavolo</h2>
+    <p>Il locale è piccolo e fitto di bottiglie: ci si siede tra gli scaffali o fuori, al dehors. Si sceglie un calice, una birra o uno spritz e arriva da mangiare.</p>
+    <ul class="piatti">
+      <li><strong>Taglieri</strong> di salumi e formaggi, abbondanti</li>
+      <li><strong>Panini</strong>, compreso quello con le acciughe al verde</li>
+      <li><strong>Stuzzichini</strong> che girano con il bicchiere</li>
+    </ul>
+  </div>
+  <blockquote class="grande">
+    <p>Un panino alle acciughe al verde da fare invidia alle feste degli alpini.</p>
+    <cite>Gabriele R., su Google</cite>
+  </blockquote>
+</section>
+
+<section class="arturo-sez" id="arturo">
+  <div class="medaglia" aria-hidden="true"><span>A</span></div>
+  <div>
+    <h2>Chiedete di Arturo</h2>
+    <p class="lead">Arturo è il pastore tedesco di Luca, il titolare. È in enoteca quasi ogni sera, e più di un cliente torna anche per lui.</p>
+    <p class="citaz">"Di noi dicono che siamo cordiali, simpatici e preparati. Io vi dico venite a trovarci, chiedete di Arturo e lo scoprirete personalmente. Cin cin!"</p>
+    <p class="firma">Luca, dalla pagina Facebook</p>
+  </div>
+</section>
+
+<section class="voci">
+  <h2>Chi ci è passato</h2>
+  <div class="voci-lista">
+    <blockquote><p>Oltre alla qualità e la gentilezza del personale torneremo sicuramente perché c'è Arturo!</p><cite>Rocco</cite></blockquote>
+    <blockquote><p>Ci siamo fermati con degli amici per caso ma ci siamo trovati talmente bene che siamo rimasti più del previsto.</p><cite>Veronica V.</cite></blockquote>
+    <blockquote><p>Una vasta varietà di vini e birre di importazione con abbondanti taglieri.</p><cite>Adriano F.</cite></blockquote>
+    <blockquote><p>Ideale per una pausa, un aperitivo tra amici o semplicemente per gustarsi un buon bicchiere di vino.</p><cite>Mariateresa M.</cite></blockquote>
+  </div>
+  <p class="voto"><strong>4,6</strong> su 5, con 346 recensioni su Google</p>
+</section>
+
+<section class="dove" id="orari-sez">
+  <div>
+    <h2>Orari</h2>
+    <p class="stato-riga"><span data-stato></span></p>
+    <table id="orari" data-orari='[[],[[10,30,12,30],[16,0,22,0]],[[10,30,12,30],[16,0,22,0]],[[10,30,12,30],[16,0,22,0]],[[10,30,12,30],[16,0,22,0]],[[10,30,12,30],[16,0,22,0]],[]]'></table>
+    <h2 class="h-dove">Dove siamo</h2>
+    <p>Via Monginevro 28b, 10138 Torino<br>tra Cenisia e Borgo San Paolo</p>
+    <p><a class="lnk" href="tel:+393468626405">346 862 6405</a><br><a class="lnk" href="mailto:lucacarante747@gmail.com">lucacarante747@gmail.com</a><br><a class="lnk" href="https://www.facebook.com/enotecadiarturo.it/" target="_blank" rel="noopener">Facebook</a></p>
+  </div>
+  <iframe class="mappa" loading="lazy" title="Mappa: L'Enoteca di Arturo, via Monginevro 28b" src="https://www.google.com/maps?q=Enoteca+di+Arturo,+Via+Monginevro+28b,+Torino&output=embed"></iframe>
+</section>
+</main>
+
+<footer>
+  <p>L'Enoteca di Arturo, via Monginevro 28b, 10138 Torino</p>
+  <p class="demo">Sito dimostrativo realizzato da Lorenzo Graziano</p>
+</footer>
+
+<nav class="barra" aria-label="Azioni rapide">
+  <a href="tel:+393468626405">Chiama</a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=Via+Monginevro+28b+10138+Torino" target="_blank" rel="noopener">Indicazioni</a>
+</nav>
+</body>
+</html>
